@@ -5,10 +5,12 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Hi! I'm CmdrNorthpaw. I dabble in Java, Kotlin, Python and Linux. Here is my blog,
   and if I've set this up right there should be some links up above to social media
   and some stuff that I've made. 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
-paginate: 1
+paginate: 10
 paginate_path: "/blog/page:num/"
+
+permalink: /:category/:title
 
 tag_permalink_style: pretty
 tag_page_layout: tag_page
@@ -25,14 +27,11 @@ dash:
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
-    - url: https://twitter.com/bitbrain_
-      icon: twitter-square
-      color: cyan
     - url: https://bitbrain.itch.io
-      icon: itch-io
+      icon: reddit
       color: red
-    - url: https://github.com/bitbrain
-      icon: github-square
+    - url: https://github.com/CmdrNorthpaw
+      icon: github-circle
       color: purple
 
   show_author: true

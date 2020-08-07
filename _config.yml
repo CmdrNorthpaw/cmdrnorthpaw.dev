@@ -1,6 +1,6 @@
 title: CmdrNorthpaw's blog
 author: CmdrNorthpaw
-email: thetuxkid@gmail.com
+email: hello@cmdrnorthpaw.dev
 description: > # this means to ignore newlines until "show_exerpts:"
   Hi! I'm CmdrNorthpaw. I dabble in Java, Kotlin, Python and Linux. Here is my blog,
   and if I've set this up right there should be some links up above to social media
@@ -47,5 +47,5 @@ plugins:
  - jekyll/tagging
 
 # Replaces the default avatar provider (gravatar)
-#avatar_source: github
-#github_username: bitbrain
+avatar_source: github
+github_username: CmdrNorthpaw
